@@ -1,5 +1,4 @@
 import { createContext, useState } from "react";
-const apiKey = import.meta.env.VITE_API_KEY;
 
 const ImageContext = createContext()
 
