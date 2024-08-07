@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "General Sans", sans-serif;
+  /* font-family: "Clash Display", sans-serif; */
+}
+
+.demo_image img{
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    border-radius: .5rem;
+    object-position: center;
+}
+
+.before_after{
+  transition: all ease 2s;
+}
+
+/* .prev_Img{
+  transition: all ease .5s;
+
+} */
+
+.loader {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: inline-block;
+  border-top: 3px solid #FFF;
+  border-right: 3px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
