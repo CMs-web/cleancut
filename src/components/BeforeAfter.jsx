@@ -56,7 +56,7 @@ function BeforeAfter({ setIsHold, isHold }) {
         viewBox="0 0 24 24"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="text-typo  hover:text-yellow-900 cursor-pointer"
+        className="text-typo  hover:text-yellow-900 cursor-pointer relative"
         onMouseDown={handleMouseDown}
         onMouseUp={handleMouseUp}
         onMouseLeave={handleMouseUp}
