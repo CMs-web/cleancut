@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="flex items-center text-lg gap-5 ">
         <a href="/">
           <img
-            src="./assets/logo.png"
+            src="public/logo2.png"
             alt="sdfgsd"
             className="w-40 md:w-48 lg:w-48 xl:w-48"
           />
@@ -26,7 +26,10 @@ const Navbar = () => {
           Pricing
         </span>
       </div>
-      <a href="https://portfolio-cms-web1s-projects.vercel.app/"  target="_blank">
+      <a
+        href="https://portfolio-cms-web1s-projects.vercel.app/"
+        target="_blank"
+      >
         <h1 className="bg-gray-300 py-2 px-3 rounded-full">SG</h1>
       </a>
     </nav>
