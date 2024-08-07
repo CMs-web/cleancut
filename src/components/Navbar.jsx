@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="flex items-center text-lg gap-5 ">
         <a href="/">
           <img
-            src="public/logo2.png"
+            src="/logo2.png"
             alt="sdfgsd"
             className="w-40 md:w-48 lg:w-48 xl:w-48"
           />
