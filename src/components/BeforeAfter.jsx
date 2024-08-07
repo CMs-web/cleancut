@@ -22,11 +22,9 @@ function BeforeAfter({ setIsHold, isHold }) {
     if (isHold) {
       // console.log("Button was held down!");
       setIsHold(true)
-      console.log(isHold);
     } else {
       // console.log("Button was clicked but not held down.");
       setIsHold(false)
-      console.log(isHold)
     }
     setIsHold(false);
   };
