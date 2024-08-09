@@ -11,7 +11,7 @@ export const ImageProvider = ({ children }) => {
 
     
     async function getImg(image) {
-         setIsLoading(true)
+       setIsLoading(true)
        const formData = new FormData();
        formData.append("image_file", image);
        formData.append("size", "auto");
@@ -19,7 +19,7 @@ export const ImageProvider = ({ children }) => {
        const res = await fetch("https://api.remove.bg/v1.0/removebg", {
          method: "POST",
          headers: {
-           "X-Api-Key": "hx6WLidsgWDndZyRrQAAiiY1",
+           "X-Api-Key": "UeDhkisXXgohb1rGywccqij1",
          },
          body: formData,
        });
